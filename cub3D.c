@@ -10,7 +10,7 @@ int is_cubfile(char *file)
 	if (file[i - 4] != '.' || (file[i - 3] != 'c' || (file[i - 2] != 'u') || (file[i - 1] != 'b')))
 		return (0);
 	return (1);
-}
+} 
 
 void free_memory(t_parse *parse, t_data *data)
 {
