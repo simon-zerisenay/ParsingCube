@@ -3,7 +3,7 @@
 int is_cubfile(char *file)
 {
 	int i;
-  
+   
 	i = ft_strlen(file); 
 	if (i < 5)   
 		return (0);
