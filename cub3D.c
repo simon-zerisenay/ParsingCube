@@ -38,7 +38,7 @@ void print_data(const t_data *data)
 	// Add more print statements for other members as needed.
 }
 
-
+ 
 int main(int argc, char **argv)
 {
 	t_data data;
