@@ -1,4 +1,4 @@
-#include "../includes/cub3D.h"
+#include "../includes/cub3D.h" 
 
 int	check_front(char **map, int j, int i) 
 {
