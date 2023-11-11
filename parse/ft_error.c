@@ -1,5 +1,5 @@
 #include "../includes/cub3D.h" 
-
+ 
 int	check_front(char **map, int j, int i) 
 {
 	while (i >= 0)
