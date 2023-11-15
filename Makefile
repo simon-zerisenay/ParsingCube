@@ -7,7 +7,7 @@ MLXLINUX	= ./mlx_linux/
 FILES 		= cub3D.c  ./parse/p_check.c ./parse/p_cpy_map.c ./parse/p_map.c ./parse/p_parse.c \
 				./parse/p_texture.c ./parse/p_text_utilis.c ./parse/p_map_utilis.c ./parse/ft_error.c \ 
 				./parse/p_init.c ./parse/parsing_utils.c ./parse/p_wall.c ./parse/p_wall_utilis.c   
-CC          = cc 
+CC          = cc
 CFLAGS      = -Wall -Wextra -Werror -g 
 sanitize    = -fsanitize=address -fno-omit-frame-pointer -fno-optimize-sibling-calls 
 RM          = rm -f  
