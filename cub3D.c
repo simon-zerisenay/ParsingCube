@@ -1,6 +1,6 @@
 #include "./includes/cub3D.h"
 
-int is_cubfile(char *file)
+int is_cubfile(char *file) 
 {
 	int i;
    
