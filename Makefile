@@ -1,5 +1,5 @@
 NAME        = cub3D
-
+  
 LIBFT       = ./libft/libft.a
 MLXMAC		= ./mlx/
 MLXLINUX	= ./mlx_linux/
