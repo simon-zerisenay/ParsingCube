@@ -13,7 +13,7 @@ sanitize    = -fsanitize=address -fno-omit-frame-pointer -fno-optimize-sibling-c
 RM          = rm -f   
 LinLinker	= -Lmlx_linux -lmlx_Linux -L/usr/lib -Imlx_linux -lXext -lX11 -lm -lz 
 MacLinker	= -Lmlx -lmlx -framework OpenGL -framework AppKit   
-OBJS		= $(FILES:.c=.o) 
+OBJS		= $(FILES:.c=.o)  
 
 all: $(NAME)
 
