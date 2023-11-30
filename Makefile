@@ -16,7 +16,7 @@ MacLinker	= -Lmlx -lmlx -framework OpenGL -framework AppKit
 OBJS		= $(FILES:.c=.o)  
 
 all: $(NAME)
-
+ 
 %.o : %.c
 	@cc $(CFLAGS) -Imlx -c $< -o $@ 
 
