@@ -18,7 +18,7 @@ OBJS		= $(FILES:.c=.o)
 all: $(NAME)
 
 %.o : %.c
-	@cc $(CFLAGS) -Imlx -c $< -o $@
+	@cc $(CFLAGS) -Imlx -c $< -o $@ 
 
 $(NAME): $(LIBFT) $(OBJS)
 	@$(MAKE) -C $(MLXLINUX)
