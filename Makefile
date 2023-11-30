@@ -9,7 +9,7 @@ FILES 		= cub3D.c  ./parse/p_check.c ./parse/p_cpy_map.c ./parse/p_map.c ./parse
 				./parse/p_init.c ./parse/parsing_utils.c ./parse/p_wall.c ./parse/p_wall_utilis.c   
 CC          = cc
 CFLAGS      = -Wall -Wextra -Werror -g 
-sanitize    = -fsanitize=address -fno-omit-frame-pointer -fno-optimize-sibling-calls 
+sanitize    = -fsanitize=address -fno-omit-frame-pointer -fno-optimize-sibling-calls  
 RM          = rm -f   
 LinLinker	= -Lmlx_linux -lmlx_Linux -L/usr/lib -Imlx_linux -lXext -lX11 -lm -lz 
 MacLinker	= -Lmlx -lmlx -framework OpenGL -framework AppKit   
