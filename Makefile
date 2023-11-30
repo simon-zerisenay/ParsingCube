@@ -10,7 +10,7 @@ FILES 		= cub3D.c  ./parse/p_check.c ./parse/p_cpy_map.c ./parse/p_map.c ./parse
 CC          = cc
 CFLAGS      = -Wall -Wextra -Werror -g 
 sanitize    = -fsanitize=address -fno-omit-frame-pointer -fno-optimize-sibling-calls 
-RM          = rm -f  
+RM          = rm -f   
 LinLinker	= -Lmlx_linux -lmlx_Linux -L/usr/lib -Imlx_linux -lXext -lX11 -lm -lz 
 MacLinker	= -Lmlx -lmlx -framework OpenGL -framework AppKit   
 OBJS		= $(FILES:.c=.o) 
