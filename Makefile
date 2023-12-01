@@ -1,7 +1,7 @@
 NAME        = cub3D
   
 LIBFT       = ./libft/libft.a
-MLXMAC		= ./mlx/ 
+MLXMAC		= ./mlx/  
 MLXLINUX	= ./mlx_linux/ 
  
 FILES 		= cub3D.c  ./parse/p_check.c ./parse/p_cpy_map.c ./parse/p_map.c ./parse/p_parse.c \
