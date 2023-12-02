@@ -5,7 +5,7 @@ int is_cubfile(char *file)
 	int i;
    
 	i = ft_strlen(file); 
-	if (i < 5)   
+	if (i < 5)    
 		return (0);
 	if (file[i - 4] != '.' || (file[i - 3] != 'c' || (file[i - 2] != 'u') || (file[i - 1] != 'b')))
 		return (0);
